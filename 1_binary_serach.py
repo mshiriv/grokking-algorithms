@@ -1,4 +1,4 @@
-def binary_search(list: list, item: int)-> None or int:
+def binary_search(list: list, item: int)-> none or int:
   low = 0
   high = len(list) - 1
   while low <= high:
